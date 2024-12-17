@@ -1,0 +1,59 @@
+.myclass{
+    background-image: url('new.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    color:black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: Arial, sans-serif;
+    animation: fadeIn 2s ease-in-out;
+    font-size: larger;
+   
+}
+
+p{
+    font-size: 20px;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.container-xxl{
+    background-color:white;
+    padding: 12px;
+    animation: fadeout 2s ease-in-out;
+    
+
+
+}
+@keyframes fadeout {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+h1{
+    font-size: 90px;
+}
+
+.back-button{
+    color:black;
+   
+ }
+
+
+
+ 
